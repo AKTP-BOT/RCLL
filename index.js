@@ -66,8 +66,8 @@ if (path.extname(plugin).toLowerCase() == ".js") {
 require("./plugins/" + plugin);
 }
 });
-console.log('Plugins installed successful ✅')
-console.log('Bot connected to whatsapp ✅')
+console.log('RCL-MD Plugins installed successful ✅')
+console.log('RCL-MD Bot connected to whatsapp ✅')
 
 let up = `Bot Name connected successful ✅\n\nPREFIX: ${prefix}`;
 
@@ -150,7 +150,7 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
          
 if(senderNumber.includes("947189133889")){
 if(isReact) return
-m.react("💗")
+m.react("🧬")
 }       
 
                
