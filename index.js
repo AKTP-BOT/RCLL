@@ -71,7 +71,7 @@ console.log('RCL-MD Bot connected to whatsapp ✅')
 
 let up = `Bot Name connected successful ✅\n\nPREFIX: ${prefix}`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://pomf2.lain.la/f/uzu4feg.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/Mhd1RQX/941843c8dbcf7ac8.jpg` }, caption: up })
 
 }
 })
@@ -148,7 +148,7 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
             
 //========OwnerReact========            
          
-if(senderNumber.includes("947189133889")){
+if(senderNumber.includes("94788240417")){
 if(isReact) return
 m.react("🧬")
 }       
