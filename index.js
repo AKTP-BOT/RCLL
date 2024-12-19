@@ -29,7 +29,7 @@ const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
 fs.writeFile(__dirname + '/auth_info_baileys/creds.json', data, () => {
-console.log("Session downloaded ✅")
+console.log("RCL-MD Session downloaded ✅")
 })})}
 
 const express = require("express");
@@ -69,7 +69,7 @@ require("./plugins/" + plugin);
 console.log('RCL-MD Plugins installed successful ✅')
 console.log('RCL-MD Bot connected to whatsapp ✅')
 
-let up = `Bot Name connected successful ✅\n\nPREFIX: ${prefix}`;
+let up = `RCL-MD connected successful ✅\n\nPREFIX: ${prefix}`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/Mhd1RQX/941843c8dbcf7ac8.jpg` }, caption: up })
 
